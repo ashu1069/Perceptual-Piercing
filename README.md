@@ -29,7 +29,7 @@ pip install -r requirements.txt
 4. Model Testing: Execute `test.py` to assess the dehazing performance of the model.
 
 ## Evaluation
-1. General Dehazing Evaluation: Run `dehazing_evaluation.py` in `evaluation/` to evaluate the performance of any general dehazing method.
-2. Foggy Cityscapes Evaluation: Use `test_FC.py` to measure dehazing performance on the Foggy Cityscapes dataset.
-3. RESIDE Dataset Evaluation: Use `test_RESIDE.py` to evaluate dehazing performance on the OTS and RTTS subsets of the RESIDE dataset.
-4. Object Detection Performance: Execute `metrics.py` to assess object detection performance using the dehazed outputs. 
+1. General Dehazing Evaluation: Run `dehazing_evaluation.py` in the `evaluation/` directory to evaluate the performance of any general dehazing method.
+2. Foggy Cityscapes Evaluation: Use `test_FC.py` in the `evaluation/` directory to measure dehazing performance on the Foggy Cityscapes dataset.
+3. RESIDE Dataset Evaluation: Use `test_RESIDE.py` in the `evaluation/` directory to evaluate dehazing performance on the OTS and RTTS subsets of the RESIDE dataset.
+4. Object Detection Performance: Execute `metrics.py` in the `evaluation/` directory to assess object detection performance using the dehazed outputs. 
