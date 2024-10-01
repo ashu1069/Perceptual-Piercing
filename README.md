@@ -9,7 +9,7 @@ To set up the repository, follow these steps:
 
 1. Clone the repository
 ```
-git clone https://github.com/your_username/perceptual-piercing.git
+git clone https://github.com/ashu1069/perceptual-piercing.git
 cd perceptual-piercing
 ```
 2. Create a Virtual Environment
