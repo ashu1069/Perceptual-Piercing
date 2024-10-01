@@ -1,4 +1,6 @@
 # Perceptual Piercing: Human Visual Cue-Based Object Detection in Low Visibility Conditions
+![Perceptual Piercing](/perceptual_piercing.png)
+
 A novel machine-learning framework, inspired by the atmospheric scattering model and human visual cortex mechanisms, to enhance object detection under poor visibility scenarios such as fog, smoke, and haze. Implemented a multi-tiered strategy based on human-like visual cues that integrates an initial quick detection, followed by target-specific dehazing, and concludes with an in-depth detection phase.
 
 ## Installation
@@ -22,6 +24,7 @@ pip install -r requirements.txt
 4. Download pre-trained models: Download the YOLOv5 and YOLOv8 pre-trained models and place them in the `models/` directory:
 
 ## AOD-NetX
+![AOD-NetX](/aodnetx.png)
 
 1. Dataset Preparation: Prepare datasets using the corresponding `dataloader.py` script in the `AOD-NetX/` directory.
 2. Generate Bounding Box Annotations: Use `yolov5_annotations.py` and `yolov8_annotations.py` scripts to create bounding box annotations from the dataset directory.
